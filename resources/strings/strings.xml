@@ -1,5 +1,7 @@
 <strings>
     <string id="AppName">SimpleDots</string>
-    <string id="test">test</string>
-    <string id="testString">testString</string>
+    <string id="info_bottom_left">Info to show at Bottom Left Location</string>
+    <string id="info_name_empty">None</string>
+    <string id="info_name_calories">Calories</string>
+    <string id="info_name_notifications">Notifications</string>
 </strings>

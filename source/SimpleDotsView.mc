@@ -37,6 +37,8 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	var battery_positions = new [12];
 	var right_data_position = new [2];
 	
+	var info_list = new [3];
+	
 	var top;
 	var bottom; 
 	var right;
@@ -120,6 +122,10 @@ class SimpleDotsView extends WatchUi.WatchFace {
 		}
 		battery_positions = getDots(radius, battery_positions.size(), dots_angle, 0);
 		months_positions = getDots(radius, months_positions.size(), dots_angle, Math.PI);
+		
+		info_list[0] = WatchUi.loadResource(Rez.Strings.info_name_empty);
+		info_list[1] = WatchUi.loadResource(Rez.Strings.info_name_notifications);
+		info_list[2] = WatchUi.loadResource(Rez.Strings.info_name_calories);
 
     	if (can_burn_in) {
     		burn_in_grid = WatchUi.loadResource(Rez.Drawables.grid);
@@ -129,8 +135,6 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	    	burn_in_grid_horizontal = Math.ceil(width.toFloat() / burn_in_grid_width.toFloat());
 	    	burn_in_grid_vertical = Math.ceil(height.toFloat() / burn_in_grid_height.toFloat());
     	}
-    	
-    	System.println(Application.Properties.getValue("test"));
     }
     
     function getFontDimensions(dc, font) {
@@ -189,6 +193,8 @@ class SimpleDotsView extends WatchUi.WatchFace {
 		}
 		var info = ActivityMonitor.getInfo();
         drawCalories(dc, info);
+        
+        drawBottomLeftInfo(dc);
 
         if (can_burn_in) {
         	if (in_low_power) {
@@ -236,6 +242,25 @@ class SimpleDotsView extends WatchUi.WatchFace {
 		}
     	dc.setColor(error_color, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(right, top, font_icons, status, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+	}
+	
+	function drawBottomLeftInfo(dc) {
+		drawInfo(dc, [left, bottom], Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+	}
+	
+	function drawInfo(dc, position, orientation) {
+		System.println("draw");
+		System.println(info_list[Application.Properties.getValue("info_bottom_left")]);
+		switch(info_list[Application.Properties.getValue("info_bottom_left")]) {
+			case WatchUi.loadResource(Rez.Strings.info_name_notifications):
+				System.println("I did it");
+				return;
+			case WatchUi.loadResource(Rez.Strings.info_name_calories):
+				return;
+			case WatchUi.loadResource(Rez.Strings.info_name_empty):
+			default:
+				return;
+		}
 	}
     
     function drawBattery(dc, battery) {

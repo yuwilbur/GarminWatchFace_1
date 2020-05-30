@@ -1,5 +1,9 @@
 <settings>
-	<setting propertyKey="@Properties.test" title="@Strings.test" prompt="@Strings.testString">
-	<settingConfig type="alphaNumeric" />
+	<setting propertyKey="@Properties.info_bottom_left" title="@Strings.info_bottom_left">
+	<settingConfig type="list">
+	<listEntry value="0">@Strings.info_name_empty</listEntry>
+	<listEntry value="1">@Strings.info_name_notifications</listEntry>
+	<listEntry value="2">@Strings.info_name_calories</listEntry>
+	</settingConfig>
 	</setting>
 </settings>
