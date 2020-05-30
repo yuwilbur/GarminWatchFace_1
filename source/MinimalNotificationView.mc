@@ -12,6 +12,9 @@ class MinimalNotificationView extends WatchUi.WatchFace {
 	var secondary_color;
 	var primary_off_color;
 	var secondary_off_color;
+	var good_color;
+	var warning_color;
+	var error_color;
 	
 	var font_small;
 	var font_large;
@@ -65,6 +68,9 @@ class MinimalNotificationView extends WatchUi.WatchFace {
     	secondary_color = 0x109AD7; // Light blue. (https://developer.garmin.com/connect-iq/user-experience-guide/brand-guidelines)
     	primary_off_color = 0x494848; // Dark gray. (https://developer.garmin.com/connect-iq/user-experience-guide/brand-guidelines)
     	secondary_off_color = 0xBBBDBF; // Light gray. (https://developer.garmin.com/connect-iq/user-experience-guide/brand-guidelines)
+    	good_color = 0x00FF00; // Green. (https://developer.garmin.com/connect-iq/user-experience-guide/page-layout)
+    	warning_color = 0xFFFF00; // Yellow. (https://developer.garmin.com/connect-iq/user-experience-guide/page-layout)
+    	error_color = 0xFF0000; // Red. (https://developer.garmin.com/connect-iq/user-experience-guide/page-layout)
 
     	font_small = Graphics.FONT_XTINY;
     	font_large = Graphics.FONT_NUMBER_THAI_HOT;
@@ -76,7 +82,11 @@ class MinimalNotificationView extends WatchUi.WatchFace {
 		var font_small_dimensions = getFontDimensions(dc, font_small);
 		font_small_width = font_small_dimensions[0];
 		var font_small_height = font_small_dimensions[1];
-
+		var font_small_size = font_small_height;
+    	if (font_small_size < font_small_width) {
+    		font_small_size = font_small_width;
+    	}
+    	
 		var font_large_dimensions = getFontDimensions(dc, font_large);
 		font_large_width = font_large_dimensions[0];
 		var font_large_height = font_large_dimensions[1];
@@ -84,30 +94,30 @@ class MinimalNotificationView extends WatchUi.WatchFace {
 		var font_icons_dimensions = getFontDimensions(dc, font_icons);
 		font_icons_width = font_icons_dimensions[0];
     	
-    	var font_small_size = font_small_height / 2;
-    	if (font_small_size < font_small_width) {
-    		font_small_size = font_small_width;
-    	}
 		var watch_radius = width / 2.0;
 		top = height / 2 - font_large_height / 2 - font_small_height / 2;
 		bottom = height - top;
 		var top_left_angle = Math.asin((height / 2.0 - top) / watch_radius);
 		var top_left = calculateCirclePosition(Math.PI + top_left_angle, watch_radius);
-		left = top_left[0] + font_small_size/ 2.0;
+		left = top_left[0] + font_small_size / 2.0;
 		right = width - left;
 		
-		hour_position = [width / 2 - 1, height / 2];
-    	minute_position = [width / 2 + 1, height / 2];
+		hour_position = [width / 2, height / 2];
+    	minute_position = [width / 2, height / 2];
 		month_position = [width / 2, top];
 		date_position = [month_position[0], month_position[1]];
 		date_position[0] += font_small_width * 2.0;
 		right_data_position = [right, bottom];
-		dot_thickness = Math.floor(Graphics.getFontHeight(font_small) / 16);
 
-		var radius = width / 2.0 - font_small_size;
-		var dots_angle = Math.asin((height / 2.0 - top - font_small_size * 3.0 / 2.0) / radius) * 2.0;
+		var radius = width / 2.0 - font_small_size / 2.0;
+		var dots_height = (height / 2.0 - top - (font_small_size * radius / (width / 2.0))) * 2.0;
+		var dots_angle = Math.asin(dots_height / 2.0 / radius) * 2.0;
+		dot_thickness = dots_height / 48;
 
-    	date_positions = getDots(radius, date_positions.size(), -dots_angle, Math.PI * 3.0 / 2.0);
+		var date_positions_step = dot_thickness * 6.0;
+		for(var i = 0; i < date_positions.size(); ++i) {
+			date_positions[i] = [width / 2, height / 2 + font_large_height / 2 + i * date_positions_step];
+		}
 		battery_positions = getDots(radius, battery_positions.size(), dots_angle, 0);
 		months_positions = getDots(radius, months_positions.size(), dots_angle, Math.PI);
 
@@ -162,27 +172,21 @@ class MinimalNotificationView extends WatchUi.WatchFace {
 		View.onUpdate(dc);
 
         var time_short = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-
-        var hour_string = time_short.hour.format("%02d");
-        var minute_string = time_short.min.format("%02d");
         
         dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
-        drawTime(dc, hour_string, minute_string);
+        drawTime(dc, time_short.hour, time_short.min);
         drawBattery(dc, System.getSystemStats().battery);
-//		var month_string = time_short.month.format("%02d");
-	    var date_string = time_short.day.format("%02d");
-	    var day_of_week = time_short.day_of_week - 1;
-	    // Convert day_of_week to Monday to Sunday
-	    day_of_week -= 1;
-	    if (day_of_week < 0) {
-	    	day_of_week = 6;
-	    }
-    	drawDate(dc, time_short.month, date_string, day_of_week);
+    	drawDate(dc, time_short.month, time_short.day);
+    	
+    	var device_settings = System.getDeviceSettings();
+    	drawStatus(dc, device_settings);
 
+		if (device_settings.phoneConnected) {
+	        drawNotification(dc, device_settings);
+	//        drawHeartRate(dc);
+		}
 		var info = ActivityMonitor.getInfo();
-        drawNotification(dc, System.getDeviceSettings());
         drawCalories(dc, info);
-//        drawHeartRate(dc);
 
         if (can_burn_in) {
         	if (in_low_power) {
@@ -196,31 +200,18 @@ class MinimalNotificationView extends WatchUi.WatchFace {
     	}
     }
 
-    function drawTime(dc, hour_string, minute_string) {
+    function drawTime(dc, hour, minute) {
+        var hour_string = hour.format("%02d");
+        var minute_string = minute.format("%02d");
 		dc.drawText(hour_position[0], hour_position[1], font_large, hour_string, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
 		dc.setColor(secondary_color, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(minute_position[0], minute_position[1], font_large, minute_string, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
-        dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
     }
     
-    function drawDate(dc, month, date_string, day_of_week) {
-//    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
-//   		dc.drawText(month_position[0] - 1, month_position[1], font_small, month_string, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
-//   		dc.setColor(secondary_color, Graphics.COLOR_TRANSPARENT);
-//   		dc.drawText(month_position[0] + 1, month_position[1], font_small, date_string, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
-//   		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
-//		for(var i = 0; i < date_positions.size(); ++i) {
-//   			if (i == day_of_week) {
-//   				dc.drawText(date_positions[i][0], date_positions[i][1], font_small, date_string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-//			} else {
-//   				dc.fillCircle(date_positions[i][0], date_positions[i][1], dot_thickness);
-//			}
-//   		}
-//		var month_string = month.format("%02d");
+    function drawDate(dc, month, date) {
+    	var date_string = date.format("%02d");
     	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(left, top, font_small, date_string, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
-//   		dc.drawText(left + 1.25 * font_icons_width, bottom, font_small, month_string, Graphics.TEXT_JUSTIFY_LEFT| Graphics.TEXT_JUSTIFY_VCENTER);
-
    		for(var i = 0; i < months_positions.size(); ++i) {
    			if (i < month) {
    				dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
@@ -235,12 +226,32 @@ class MinimalNotificationView extends WatchUi.WatchFace {
    		}
    		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
 	}
+	
+	function drawStatus(dc, device_settings) {
+		var status = "";
+		if (!device_settings.phoneConnected) {
+			status += "V";
+		}
+    	dc.setColor(error_color, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(right, top, font_icons, status, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+	}
     
     function drawBattery(dc, battery) {
-        battery = (battery / 100.0) * battery_positions.size() - 0.5;
+        var battery_position = (battery / 100.0) * battery_positions.size() - 0.5;
+    	var battery_color = primary_color;
+		if (battery_position >= battery_positions.size() - 1) {
+			battery_color = good_color;
+		} else if (battery < 16.7) {
+			battery_color = error_color;
+		} else if (battery < 33.3) {
+			battery_color = warning_color;
+		} else {
+			battery_color = primary_color;
+		}
+        
 		for(var i = 0; i < battery_positions.size(); ++i) {
-			if(i <= battery) {
-   				dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+			if(i <= battery_position) {
+   					dc.setColor(battery_color, Graphics.COLOR_TRANSPARENT);
 			} else {
 				if (i == battery_positions.size() - 1) {
    					dc.setColor(secondary_off_color, Graphics.COLOR_TRANSPARENT);
@@ -253,10 +264,6 @@ class MinimalNotificationView extends WatchUi.WatchFace {
 	}
 
 	function drawNotification(dc, device_settings) {
-		if (!device_settings.phoneConnected) {
-			dc.drawText(right_data_position[0], right_data_position[1], font_small, "--", Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
-			return;
-		}
 		var notification_count = device_settings.notificationCount;
 		if (notification_count == 0) {
 			return;
