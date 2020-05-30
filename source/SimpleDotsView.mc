@@ -38,7 +38,7 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	var right_data_position = new [2];
 	
 	var top;
-	var bottom;
+	var bottom; 
 	var right;
 	var left;
 	
@@ -129,6 +129,8 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	    	burn_in_grid_horizontal = Math.ceil(width.toFloat() / burn_in_grid_width.toFloat());
 	    	burn_in_grid_vertical = Math.ceil(height.toFloat() / burn_in_grid_height.toFloat());
     	}
+    	
+    	System.println(Application.Properties.getValue("test"));
     }
     
     function getFontDimensions(dc, font) {

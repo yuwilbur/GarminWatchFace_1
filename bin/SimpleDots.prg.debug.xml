@@ -59,276 +59,279 @@
         <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="4" lineNum="128" pc="268436866" symbol="onLayout"/>
         <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="4" lineNum="129" pc="268436879" symbol="onLayout"/>
         <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="4" lineNum="130" pc="268436937" symbol="onLayout"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="134" pc="268436999" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="135" pc="268437003" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="136" pc="268437037" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="137" pc="268437055" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="4" lineNum="133" pc="268436998" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="136" pc="268437043" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="137" pc="268437047" symbol="getFontDimensions"/>
         <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="138" pc="268437081" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="139" pc="268437101" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="141" pc="268437120" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="142" pc="268437140" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="145" pc="268437172" symbol="getFontDimensions"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="6" lineNum="148" pc="268437176" symbol="calculateCirclePosition"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="6" lineNum="149" pc="268437180" symbol="calculateCirclePosition"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="155" pc="268437304" symbol="getDots"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="156" pc="268437308" symbol="getDots"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="157" pc="268437321" symbol="getDots"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="158" pc="268437326" symbol="getDots"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="159" pc="268437350" symbol="getDots"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="161" pc="268437413" symbol="getDots"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="8" lineNum="167" pc="268437417" symbol="onShow"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="171" pc="268437422" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="172" pc="268437426" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="174" pc="268437446" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="176" pc="268437496" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="177" pc="268437528" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="178" pc="268437558" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="179" pc="268437593" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="181" pc="268437623" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="182" pc="268437640" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="184" pc="268437656" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="185" pc="268437667" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="188" pc="268437686" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="189" pc="268437703" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="191" pc="268437719" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="192" pc="268437730" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="193" pc="268437741" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="194" pc="268437762" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="195" pc="268437783" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="198" pc="268437860" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="203" pc="268437905" symbol="drawTime"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="204" pc="268437909" symbol="drawTime"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="205" pc="268437927" symbol="drawTime"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="206" pc="268437945" symbol="drawTime"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="207" pc="268438020" symbol="drawTime"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="208" pc="268438052" symbol="drawTime"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="211" pc="268438128" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="212" pc="268438132" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="213" pc="268438150" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="214" pc="268438182" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="215" pc="268438245" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="216" pc="268438275" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="217" pc="268438283" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="219" pc="268438318" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="220" pc="268438347" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="222" pc="268438382" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="225" pc="268438414" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="227" pc="268438481" symbol="drawDate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="230" pc="268438514" symbol="drawStatus"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="231" pc="268438518" symbol="drawStatus"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="232" pc="268438525" symbol="drawStatus"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="233" pc="268438537" symbol="drawStatus"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="235" pc="268438550" symbol="drawStatus"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="236" pc="268438582" symbol="drawStatus"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="239" pc="268438646" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="240" pc="268438650" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="241" pc="268438684" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="139" pc="268437099" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="140" pc="268437125" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="141" pc="268437145" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="143" pc="268437164" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="144" pc="268437184" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="5" lineNum="147" pc="268437216" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="6" lineNum="150" pc="268437220" symbol="calculateCirclePosition"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="6" lineNum="151" pc="268437224" symbol="calculateCirclePosition"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="157" pc="268437348" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="158" pc="268437352" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="159" pc="268437365" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="160" pc="268437370" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="161" pc="268437394" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="7" lineNum="163" pc="268437457" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="8" lineNum="169" pc="268437461" symbol="onShow"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="173" pc="268437466" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="174" pc="268437470" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="176" pc="268437490" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="178" pc="268437540" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="179" pc="268437572" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="180" pc="268437602" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="181" pc="268437637" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="183" pc="268437667" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="184" pc="268437684" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="186" pc="268437700" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="187" pc="268437711" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="190" pc="268437730" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="191" pc="268437747" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="193" pc="268437763" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="194" pc="268437774" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="195" pc="268437785" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="196" pc="268437806" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="197" pc="268437827" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="9" lineNum="200" pc="268437904" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="205" pc="268437949" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="206" pc="268437953" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="207" pc="268437971" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="208" pc="268437989" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="209" pc="268438064" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="10" lineNum="210" pc="268438096" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="213" pc="268438172" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="214" pc="268438176" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="215" pc="268438194" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="216" pc="268438226" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="217" pc="268438289" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="218" pc="268438319" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="219" pc="268438327" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="221" pc="268438362" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="222" pc="268438391" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="224" pc="268438426" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="227" pc="268438458" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="11" lineNum="229" pc="268438525" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="232" pc="268438558" symbol="drawStatus"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="233" pc="268438562" symbol="drawStatus"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="234" pc="268438569" symbol="drawStatus"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="235" pc="268438581" symbol="drawStatus"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="237" pc="268438594" symbol="drawStatus"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="12" lineNum="238" pc="268438626" symbol="drawStatus"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="241" pc="268438690" symbol="drawBattery"/>
         <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="242" pc="268438694" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="243" pc="268438723" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="244" pc="268438736" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="245" pc="268438747" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="246" pc="268438760" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="247" pc="268438771" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="249" pc="268438784" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="252" pc="268438794" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="253" pc="268438824" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="254" pc="268438832" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="256" pc="268438861" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="257" pc="268438890" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="259" pc="268438925" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="262" pc="268438957" symbol="drawBattery"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="266" pc="268439025" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="267" pc="268439029" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="268" pc="268439039" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="269" pc="268439050" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="272" pc="268439054" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="273" pc="268439072" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="274" pc="268439104" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="275" pc="268439170" symbol="drawNotification"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="278" pc="268439249" symbol="drawCalories"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="279" pc="268439253" symbol="drawCalories"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="280" pc="268439260" symbol="drawCalories"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="281" pc="268439283" symbol="drawCalories"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="283" pc="268439296" symbol="drawCalories"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="284" pc="268439328" symbol="drawCalories"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="285" pc="268439394" symbol="drawCalories"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="288" pc="268439473" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="289" pc="268439477" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="290" pc="268439484" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="291" pc="268439511" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="292" pc="268439514" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="293" pc="268439514" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="294" pc="268439527" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="295" pc="268439561" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="296" pc="268439585" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="299" pc="268439598" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="300" pc="268439630" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="301" pc="268439696" symbol="drawHeartRate"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="17" lineNum="308" pc="268439775" symbol="onHide"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="18" lineNum="312" pc="268439780" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="18" lineNum="313" pc="268439784" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="18" lineNum="314" pc="268439794" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="19" lineNum="318" pc="268439811" symbol="onEnterSleep"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="19" lineNum="319" pc="268439815" symbol="onEnterSleep"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="19" lineNum="320" pc="268439825" symbol="onEnterSleep"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="21" lineNum="5" pc="268439842" symbol="initialize"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="21" lineNum="6" pc="268439846" symbol="initialize"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="22" lineNum="10" pc="268439865" symbol="onStart"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="23" lineNum="14" pc="268439870" symbol="onStop"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="24" lineNum="18" pc="268439875" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="24" lineNum="19" pc="268439879" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="243" pc="268438728" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="244" pc="268438738" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="245" pc="268438767" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="246" pc="268438780" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="247" pc="268438791" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="248" pc="268438804" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="249" pc="268438815" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="251" pc="268438828" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="254" pc="268438838" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="255" pc="268438868" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="256" pc="268438876" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="258" pc="268438905" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="259" pc="268438934" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="261" pc="268438969" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="13" lineNum="264" pc="268439001" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="268" pc="268439069" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="269" pc="268439073" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="270" pc="268439083" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="271" pc="268439094" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="274" pc="268439098" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="275" pc="268439116" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="276" pc="268439148" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="14" lineNum="277" pc="268439214" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="280" pc="268439293" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="281" pc="268439297" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="282" pc="268439304" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="283" pc="268439327" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="285" pc="268439340" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="286" pc="268439372" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="15" lineNum="287" pc="268439438" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="290" pc="268439517" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="291" pc="268439521" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="292" pc="268439528" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="293" pc="268439555" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="294" pc="268439558" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="295" pc="268439558" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="296" pc="268439571" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="297" pc="268439605" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="298" pc="268439629" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="301" pc="268439642" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="302" pc="268439674" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="16" lineNum="303" pc="268439740" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="17" lineNum="310" pc="268439819" symbol="onHide"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="18" lineNum="314" pc="268439824" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="18" lineNum="315" pc="268439828" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="18" lineNum="316" pc="268439838" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="19" lineNum="320" pc="268439855" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="19" lineNum="321" pc="268439859" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsView.mc" id="19" lineNum="322" pc="268439869" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="21" lineNum="5" pc="268439886" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="21" lineNum="6" pc="268439890" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="22" lineNum="10" pc="268439909" symbol="onStart"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="23" lineNum="14" pc="268439914" symbol="onStop"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="24" lineNum="18" pc="268439919" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\SimpleDotsApp.mc" id="24" lineNum="19" pc="268439923" symbol="getInitialView"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="25" symbol="font_large"/>
+        <entry field="true" id="26" symbol="font_large"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry field="true" id="18" symbol="secondary_color"/>
+        <entry field="true" id="19" symbol="secondary_color"/>
         <entry field="true" id="13" symbol="grid"/>
-        <entry field="true" id="48" symbol="burn_in_grid_height"/>
+        <entry field="true" id="49" symbol="burn_in_grid_height"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="31" symbol="hour_position"/>
-        <entry id="58" method="true" symbol="drawBattery"/>
+        <entry field="true" id="32" symbol="hour_position"/>
+        <entry id="59" method="true" symbol="drawBattery"/>
         <entry field="true" id="8391194" symbol="requiresBurnInProtection"/>
         <entry id="10" object="true" symbol="SimpleDotsApp"/>
-        <entry field="true" id="50" symbol="burn_in_grid_horizontal"/>
-        <entry field="true" id="22" symbol="warning_color"/>
-        <entry field="true" id="40" symbol="bottom"/>
+        <entry field="true" id="51" symbol="burn_in_grid_horizontal"/>
+        <entry field="true" id="23" symbol="warning_color"/>
+        <entry field="true" id="41" symbol="bottom"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="8388645" module="true" symbol="Time"/>
-        <entry id="56" method="true" symbol="drawDate"/>
-        <entry field="true" id="28" symbol="font_large_width"/>
-        <entry field="true" id="21" symbol="good_color"/>
-        <entry field="true" id="38" symbol="right_data_position"/>
+        <entry id="57" method="true" symbol="drawDate"/>
+        <entry field="true" id="29" symbol="font_large_width"/>
+        <entry field="true" id="22" symbol="good_color"/>
+        <entry field="true" id="39" symbol="right_data_position"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="19" symbol="primary_off_color"/>
+        <entry field="true" id="20" symbol="primary_off_color"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="20" symbol="secondary_off_color"/>
-        <entry id="57" method="true" symbol="drawStatus"/>
-        <entry field="true" id="47" symbol="burn_in_grid_width"/>
+        <entry field="true" id="21" symbol="secondary_off_color"/>
+        <entry id="58" method="true" symbol="drawStatus"/>
+        <entry field="true" id="48" symbol="burn_in_grid_width"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="17" symbol="primary_color"/>
+        <entry field="true" id="18" symbol="primary_color"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="9" object="true" symbol="SimpleDotsView"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="16" symbol="AppName"/>
-        <entry id="59" method="true" symbol="drawNotification"/>
-        <entry field="true" id="51" symbol="burn_in_grid_vertical"/>
-        <entry field="true" id="29" symbol="font_icons_width"/>
+        <entry field="true" id="17" symbol="AppName"/>
+        <entry id="60" method="true" symbol="drawNotification"/>
+        <entry field="true" id="52" symbol="burn_in_grid_vertical"/>
+        <entry field="true" id="30" symbol="font_icons_width"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry field="true" id="14" symbol="LauncherIcon"/>
-        <entry field="true" id="46" symbol="burn_in_grid"/>
-        <entry id="55" method="true" symbol="drawTime"/>
-        <entry id="53" method="true" symbol="calculateCirclePosition"/>
+        <entry field="true" id="47" symbol="burn_in_grid"/>
+        <entry id="56" method="true" symbol="drawTime"/>
+        <entry id="54" method="true" symbol="calculateCirclePosition"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="60" method="true" symbol="drawCalories"/>
-        <entry field="true" id="39" symbol="top"/>
+        <entry id="61" method="true" symbol="drawCalories"/>
+        <entry field="true" id="40" symbol="top"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="44" symbol="in_low_power"/>
+        <entry field="true" id="45" symbol="in_low_power"/>
+        <entry field="true" id="16" symbol="testString"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="35" symbol="date_positions"/>
+        <entry field="true" id="36" symbol="date_positions"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
-        <entry field="true" id="26" symbol="font_icons"/>
-        <entry field="true" id="42" symbol="left"/>
-        <entry id="54" method="true" symbol="getDots"/>
-        <entry field="true" id="41" symbol="right"/>
-        <entry id="52" method="true" symbol="getFontDimensions"/>
-        <entry field="true" id="32" symbol="minute_position"/>
-        <entry field="true" id="37" symbol="battery_positions"/>
-        <entry field="true" id="27" symbol="font_small_width"/>
+        <entry field="true" id="27" symbol="font_icons"/>
+        <entry field="true" id="43" symbol="left"/>
+        <entry id="55" method="true" symbol="getDots"/>
+        <entry field="true" id="42" symbol="right"/>
+        <entry id="53" method="true" symbol="getFontDimensions"/>
+        <entry field="true" id="33" symbol="minute_position"/>
+        <entry field="true" id="38" symbol="battery_positions"/>
+        <entry field="true" id="28" symbol="font_small_width"/>
         <entry field="true" id="8389067" symbol="height"/>
-        <entry field="true" id="43" symbol="heart_rate_period"/>
-        <entry field="true" id="34" symbol="date_position"/>
+        <entry field="true" id="44" symbol="heart_rate_period"/>
+        <entry field="true" id="35" symbol="date_position"/>
         <entry id="11" module="true" symbol="Layouts"/>
-        <entry field="true" id="30" symbol="dot_thickness"/>
-        <entry field="true" id="49" symbol="burn_in_grid_offset"/>
+        <entry field="true" id="31" symbol="dot_thickness"/>
+        <entry field="true" id="50" symbol="burn_in_grid_offset"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="24" symbol="font_small"/>
-        <entry id="61" method="true" symbol="drawHeartRate"/>
+        <entry field="true" id="25" symbol="font_small"/>
+        <entry id="62" method="true" symbol="drawHeartRate"/>
         <entry field="true" id="15" symbol="icons"/>
-        <entry field="true" id="45" symbol="can_burn_in"/>
-        <entry field="true" id="33" symbol="month_position"/>
-        <entry field="true" id="23" symbol="error_color"/>
+        <entry field="true" id="46" symbol="can_burn_in"/>
+        <entry field="true" id="34" symbol="month_position"/>
+        <entry field="true" id="24" symbol="error_color"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="8389066" symbol="width"/>
         <entry id="12" module="true" symbol="Menus"/>
+        <entry field="true" id="8390141" object="true" symbol="test"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="36" symbol="months_positions"/>
+        <entry field="true" id="37" symbol="months_positions"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435525" name="settings" stackId="1" startPc="268435460"/>
         <entry endPc="268436689" name="i" stackId="15" startPc="268436600"/>
-        <entry endPc="268436998" name="date_positions_step" stackId="14" startPc="268435530"/>
-        <entry endPc="268436998" name="top_left_angle" stackId="9" startPc="268435530"/>
-        <entry endPc="268436998" name="dots_angle" stackId="13" startPc="268435530"/>
-        <entry endPc="268436998" name="font_icons_dimensions" stackId="7" startPc="268435530"/>
-        <entry endPc="268436998" name="font_large_dimensions" stackId="5" startPc="268435530"/>
-        <entry endPc="268436998" name="font_small_dimensions" stackId="2" startPc="268435530"/>
-        <entry endPc="268436998" name="dots_height" stackId="12" startPc="268435530"/>
-        <entry endPc="268436998" name="font_small_size" stackId="4" startPc="268435530"/>
-        <entry endPc="268436998" name="radius" stackId="11" startPc="268435530"/>
-        <entry endPc="268436998" name="top_left" stackId="10" startPc="268435530"/>
-        <entry endPc="268436998" name="font_large_height" stackId="6" startPc="268435530"/>
-        <entry endPc="268436998" name="font_small_height" stackId="3" startPc="268435530"/>
-        <entry endPc="268436998" name="watch_radius" stackId="8" startPc="268435530"/>
-        <entry endPc="268436999" name="dc" stackId="1" startPc="268435526"/>
-        <entry endPc="268437159" name="font_size" stackId="5" startPc="268437055"/>
-        <entry endPc="268437172" name="i" stackId="4" startPc="268437055"/>
-        <entry endPc="268437175" name="font_dimensions" stackId="3" startPc="268437003"/>
-        <entry endPc="268437176" name="dc" stackId="1" startPc="268436999"/>
-        <entry endPc="268437176" name="font" stackId="2" startPc="268436999"/>
-        <entry endPc="268437304" name="radius" stackId="2" startPc="268437176"/>
-        <entry endPc="268437304" name="angle" stackId="1" startPc="268437176"/>
-        <entry endPc="268437413" name="i" stackId="7" startPc="268437350"/>
-        <entry endPc="268437416" name="dot_step" stackId="5" startPc="268437308"/>
-        <entry endPc="268437416" name="dots" stackId="6" startPc="268437308"/>
-        <entry endPc="268437417" name="radius" stackId="1" startPc="268437304"/>
-        <entry endPc="268437417" name="angle_offset" stackId="4" startPc="268437304"/>
-        <entry endPc="268437417" name="count" stackId="2" startPc="268437304"/>
-        <entry endPc="268437417" name="total_angle" stackId="3" startPc="268437304"/>
-        <entry endPc="268437847" name="j" stackId="6" startPc="268437783"/>
-        <entry endPc="268437860" name="i" stackId="5" startPc="268437762"/>
-        <entry endPc="268437904" name="device_settings" stackId="3" startPc="268437426"/>
-        <entry endPc="268437904" name="info" stackId="4" startPc="268437426"/>
-        <entry endPc="268437904" name="time_short" stackId="2" startPc="268437426"/>
-        <entry endPc="268437905" name="dc" stackId="1" startPc="268437422"/>
-        <entry endPc="268438127" name="hour_string" stackId="4" startPc="268437909"/>
-        <entry endPc="268438127" name="minute_string" stackId="5" startPc="268437909"/>
-        <entry endPc="268438128" name="hour" stackId="2" startPc="268437905"/>
-        <entry endPc="268438128" name="dc" stackId="1" startPc="268437905"/>
-        <entry endPc="268438128" name="minute" stackId="3" startPc="268437905"/>
-        <entry endPc="268438481" name="i" stackId="5" startPc="268438275"/>
-        <entry endPc="268438513" name="date_string" stackId="4" startPc="268438132"/>
-        <entry endPc="268438514" name="dc" stackId="1" startPc="268438128"/>
-        <entry endPc="268438514" name="date" stackId="3" startPc="268438128"/>
-        <entry endPc="268438514" name="month" stackId="2" startPc="268438128"/>
-        <entry endPc="268438645" name="status" stackId="3" startPc="268438518"/>
-        <entry endPc="268438646" name="dc" stackId="1" startPc="268438514"/>
-        <entry endPc="268438646" name="device_settings" stackId="2" startPc="268438514"/>
-        <entry endPc="268439024" name="i" stackId="5" startPc="268438824"/>
-        <entry endPc="268439024" name="battery_position" stackId="3" startPc="268438650"/>
-        <entry endPc="268439024" name="battery_color" stackId="4" startPc="268438650"/>
-        <entry endPc="268439025" name="battery" stackId="2" startPc="268438646"/>
-        <entry endPc="268439025" name="dc" stackId="1" startPc="268438646"/>
-        <entry endPc="268439248" name="notification_count" stackId="3" startPc="268439029"/>
-        <entry endPc="268439248" name="notification_string" stackId="4" startPc="268439029"/>
-        <entry endPc="268439249" name="dc" stackId="1" startPc="268439025"/>
-        <entry endPc="268439249" name="device_settings" stackId="2" startPc="268439025"/>
-        <entry endPc="268439472" name="calories_string" stackId="3" startPc="268439253"/>
-        <entry endPc="268439473" name="dc" stackId="1" startPc="268439249"/>
-        <entry endPc="268439473" name="info" stackId="2" startPc="268439249"/>
-        <entry endPc="268439591" name="hr" stackId="5" startPc="268439514"/>
-        <entry endPc="268439774" name="hr_string" stackId="2" startPc="268439477"/>
-        <entry endPc="268439774" name="hr" stackId="4" startPc="268439477"/>
-        <entry endPc="268439774" name="hr_iterator" stackId="3" startPc="268439477"/>
-        <entry endPc="268439775" name="dc" stackId="1" startPc="268439473"/>
-        <entry endPc="268439870" name="state" stackId="1" startPc="268439865"/>
-        <entry endPc="268439875" name="state" stackId="1" startPc="268439870"/>
+        <entry endPc="268437042" name="date_positions_step" stackId="14" startPc="268435530"/>
+        <entry endPc="268437042" name="top_left_angle" stackId="9" startPc="268435530"/>
+        <entry endPc="268437042" name="dots_angle" stackId="13" startPc="268435530"/>
+        <entry endPc="268437042" name="font_icons_dimensions" stackId="7" startPc="268435530"/>
+        <entry endPc="268437042" name="font_large_dimensions" stackId="5" startPc="268435530"/>
+        <entry endPc="268437042" name="font_small_dimensions" stackId="2" startPc="268435530"/>
+        <entry endPc="268437042" name="dots_height" stackId="12" startPc="268435530"/>
+        <entry endPc="268437042" name="font_small_size" stackId="4" startPc="268435530"/>
+        <entry endPc="268437042" name="radius" stackId="11" startPc="268435530"/>
+        <entry endPc="268437042" name="top_left" stackId="10" startPc="268435530"/>
+        <entry endPc="268437042" name="font_large_height" stackId="6" startPc="268435530"/>
+        <entry endPc="268437042" name="font_small_height" stackId="3" startPc="268435530"/>
+        <entry endPc="268437042" name="watch_radius" stackId="8" startPc="268435530"/>
+        <entry endPc="268437043" name="dc" stackId="1" startPc="268435526"/>
+        <entry endPc="268437203" name="font_size" stackId="5" startPc="268437099"/>
+        <entry endPc="268437216" name="i" stackId="4" startPc="268437099"/>
+        <entry endPc="268437219" name="font_dimensions" stackId="3" startPc="268437047"/>
+        <entry endPc="268437220" name="dc" stackId="1" startPc="268437043"/>
+        <entry endPc="268437220" name="font" stackId="2" startPc="268437043"/>
+        <entry endPc="268437348" name="radius" stackId="2" startPc="268437220"/>
+        <entry endPc="268437348" name="angle" stackId="1" startPc="268437220"/>
+        <entry endPc="268437457" name="i" stackId="7" startPc="268437394"/>
+        <entry endPc="268437460" name="dot_step" stackId="5" startPc="268437352"/>
+        <entry endPc="268437460" name="dots" stackId="6" startPc="268437352"/>
+        <entry endPc="268437461" name="radius" stackId="1" startPc="268437348"/>
+        <entry endPc="268437461" name="angle_offset" stackId="4" startPc="268437348"/>
+        <entry endPc="268437461" name="count" stackId="2" startPc="268437348"/>
+        <entry endPc="268437461" name="total_angle" stackId="3" startPc="268437348"/>
+        <entry endPc="268437891" name="j" stackId="6" startPc="268437827"/>
+        <entry endPc="268437904" name="i" stackId="5" startPc="268437806"/>
+        <entry endPc="268437948" name="device_settings" stackId="3" startPc="268437470"/>
+        <entry endPc="268437948" name="info" stackId="4" startPc="268437470"/>
+        <entry endPc="268437948" name="time_short" stackId="2" startPc="268437470"/>
+        <entry endPc="268437949" name="dc" stackId="1" startPc="268437466"/>
+        <entry endPc="268438171" name="hour_string" stackId="4" startPc="268437953"/>
+        <entry endPc="268438171" name="minute_string" stackId="5" startPc="268437953"/>
+        <entry endPc="268438172" name="hour" stackId="2" startPc="268437949"/>
+        <entry endPc="268438172" name="dc" stackId="1" startPc="268437949"/>
+        <entry endPc="268438172" name="minute" stackId="3" startPc="268437949"/>
+        <entry endPc="268438525" name="i" stackId="5" startPc="268438319"/>
+        <entry endPc="268438557" name="date_string" stackId="4" startPc="268438176"/>
+        <entry endPc="268438558" name="dc" stackId="1" startPc="268438172"/>
+        <entry endPc="268438558" name="date" stackId="3" startPc="268438172"/>
+        <entry endPc="268438558" name="month" stackId="2" startPc="268438172"/>
+        <entry endPc="268438689" name="status" stackId="3" startPc="268438562"/>
+        <entry endPc="268438690" name="dc" stackId="1" startPc="268438558"/>
+        <entry endPc="268438690" name="device_settings" stackId="2" startPc="268438558"/>
+        <entry endPc="268439068" name="i" stackId="5" startPc="268438868"/>
+        <entry endPc="268439068" name="battery_position" stackId="3" startPc="268438694"/>
+        <entry endPc="268439068" name="battery_color" stackId="4" startPc="268438694"/>
+        <entry endPc="268439069" name="battery" stackId="2" startPc="268438690"/>
+        <entry endPc="268439069" name="dc" stackId="1" startPc="268438690"/>
+        <entry endPc="268439292" name="notification_count" stackId="3" startPc="268439073"/>
+        <entry endPc="268439292" name="notification_string" stackId="4" startPc="268439073"/>
+        <entry endPc="268439293" name="dc" stackId="1" startPc="268439069"/>
+        <entry endPc="268439293" name="device_settings" stackId="2" startPc="268439069"/>
+        <entry endPc="268439516" name="calories_string" stackId="3" startPc="268439297"/>
+        <entry endPc="268439517" name="dc" stackId="1" startPc="268439293"/>
+        <entry endPc="268439517" name="info" stackId="2" startPc="268439293"/>
+        <entry endPc="268439635" name="hr" stackId="5" startPc="268439558"/>
+        <entry endPc="268439818" name="hr_string" stackId="2" startPc="268439521"/>
+        <entry endPc="268439818" name="hr" stackId="4" startPc="268439521"/>
+        <entry endPc="268439818" name="hr_iterator" stackId="3" startPc="268439521"/>
+        <entry endPc="268439819" name="dc" stackId="1" startPc="268439517"/>
+        <entry endPc="268439914" name="state" stackId="1" startPc="268439909"/>
+        <entry endPc="268439919" name="state" stackId="1" startPc="268439914"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
@@ -341,7 +344,7 @@
         <dataEntry offset="417" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry offset="448" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry offset="479" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="518" parentId="globals" symbolId="SimpleDotsView" type="class"/>
+        <dataEntry offset="534" parentId="globals" symbolId="SimpleDotsView" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="SimpleDotsView">

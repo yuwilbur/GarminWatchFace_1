@@ -1,3 +1,5 @@
 <strings>
     <string id="AppName">SimpleDots</string>
+    <string id="test">test</string>
+    <string id="testString">testString</string>
 </strings>
