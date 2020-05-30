@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="3" lineNum="54" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="3" lineNum="55" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="3" lineNum="56" pc="268435478" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="3" lineNum="57" pc="268435495" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="3" lineNum="58" pc="268435506" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="63" pc="268435526" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="64" pc="268435530" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="65" pc="268435550" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="66" pc="268435563" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="67" pc="268435576" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="69" pc="268435589" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="70" pc="268435609" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="71" pc="268435629" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="73" pc="268435672" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="74" pc="268435691" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="76" pc="268435710" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="77" pc="268435733" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="78" pc="268435749" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="80" pc="268435759" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="81" pc="268435782" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="82" pc="268435798" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="84" pc="268435808" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="85" pc="268435831" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="87" pc="268435847" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="88" pc="268435857" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="89" pc="268435871" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="91" pc="268435884" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="92" pc="268435900" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="93" pc="268435940" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="94" pc="268435965" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="95" pc="268436008" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="96" pc="268436038" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="97" pc="268436063" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="99" pc="268436088" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="100" pc="268436152" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="101" pc="268436216" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="102" pc="268436268" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="103" pc="268436326" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="104" pc="268436360" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="105" pc="268436406" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="107" pc="268436458" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="108" pc="268436477" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="110" pc="268436541" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="111" pc="268436611" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="112" pc="268436656" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="114" pc="268436708" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="115" pc="268436719" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="116" pc="268436762" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="117" pc="268436775" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="118" pc="268436788" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="119" pc="268436801" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="4" lineNum="120" pc="268436859" symbol="onLayout"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="124" pc="268436921" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="125" pc="268436925" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="126" pc="268436959" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="127" pc="268436977" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="128" pc="268437003" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="129" pc="268437023" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="131" pc="268437042" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="132" pc="268437062" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="5" lineNum="135" pc="268437094" symbol="getFontDimensions"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="6" lineNum="138" pc="268437098" symbol="calculateCirclePosition"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="6" lineNum="139" pc="268437102" symbol="calculateCirclePosition"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="7" lineNum="145" pc="268437226" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="7" lineNum="146" pc="268437230" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="7" lineNum="147" pc="268437243" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="7" lineNum="148" pc="268437248" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="7" lineNum="149" pc="268437272" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="7" lineNum="151" pc="268437335" symbol="getDots"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="8" lineNum="157" pc="268437339" symbol="onShow"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="161" pc="268437344" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="162" pc="268437348" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="164" pc="268437368" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="166" pc="268437418" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="167" pc="268437442" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="169" pc="268437466" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="170" pc="268437498" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="171" pc="268437516" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="173" pc="268437551" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="174" pc="268437575" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="176" pc="268437591" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="177" pc="268437601" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="178" pc="268437612" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="180" pc="268437622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="182" pc="268437648" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="183" pc="268437665" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="184" pc="268437694" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="187" pc="268437710" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="188" pc="268437721" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="189" pc="268437732" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="190" pc="268437753" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="191" pc="268437774" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="9" lineNum="194" pc="268437851" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="10" lineNum="199" pc="268437896" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="10" lineNum="200" pc="268437900" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="10" lineNum="201" pc="268437975" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="10" lineNum="202" pc="268438007" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="10" lineNum="203" pc="268438082" symbol="drawTime"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="206" pc="268438115" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="220" pc="268438119" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="221" pc="268438151" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="224" pc="268438214" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="225" pc="268438244" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="226" pc="268438252" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="228" pc="268438287" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="229" pc="268438316" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="231" pc="268438351" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="234" pc="268438383" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="11" lineNum="236" pc="268438450" symbol="drawDate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="239" pc="268438483" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="240" pc="268438487" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="241" pc="268438521" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="242" pc="268438551" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="243" pc="268438559" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="245" pc="268438594" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="246" pc="268438623" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="248" pc="268438658" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="12" lineNum="251" pc="268438690" symbol="drawBattery"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="255" pc="268438758" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="256" pc="268438762" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="257" pc="268438774" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="258" pc="268438852" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="260" pc="268438856" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="261" pc="268438866" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="262" pc="268438877" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="265" pc="268438881" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="266" pc="268438899" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="267" pc="268438931" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="13" lineNum="268" pc="268438997" symbol="drawNotification"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="14" lineNum="271" pc="268439076" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="14" lineNum="272" pc="268439080" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="14" lineNum="273" pc="268439087" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="14" lineNum="274" pc="268439110" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="14" lineNum="276" pc="268439123" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="14" lineNum="277" pc="268439155" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="14" lineNum="278" pc="268439221" symbol="drawCalories"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="281" pc="268439300" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="282" pc="268439304" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="283" pc="268439311" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="284" pc="268439338" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="285" pc="268439341" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="286" pc="268439341" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="287" pc="268439354" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="288" pc="268439388" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="289" pc="268439412" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="292" pc="268439425" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="293" pc="268439457" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="15" lineNum="294" pc="268439523" symbol="drawHeartRate"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="16" lineNum="301" pc="268439602" symbol="onHide"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="17" lineNum="305" pc="268439607" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="17" lineNum="306" pc="268439611" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="17" lineNum="307" pc="268439621" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="18" lineNum="311" pc="268439638" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="18" lineNum="312" pc="268439642" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationView.mc" id="18" lineNum="313" pc="268439652" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationApp.mc" id="20" lineNum="5" pc="268439669" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationApp.mc" id="20" lineNum="6" pc="268439673" symbol="initialize"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationApp.mc" id="21" lineNum="10" pc="268439692" symbol="onStart"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationApp.mc" id="22" lineNum="14" pc="268439697" symbol="onStop"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationApp.mc" id="23" lineNum="18" pc="268439702" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\yuwil\\Projects\\GarminWatchFace_SimpleDots\\source\\MinimalNotificationApp.mc" id="23" lineNum="19" pc="268439706" symbol="getInitialView"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="16" symbol="font_large"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="12" symbol="secondary_color"/>
+        <entry field="true" id="54" symbol="grid"/>
+        <entry field="true" id="39" symbol="burn_in_grid_height"/>
+        <entry id="9" object="true" symbol="MinimalNotificationView"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="22" symbol="hour_position"/>
+        <entry id="48" method="true" symbol="drawBattery"/>
+        <entry field="true" id="8391194" symbol="requiresBurnInProtection"/>
+        <entry field="true" id="41" symbol="burn_in_grid_horizontal"/>
+        <entry field="true" id="31" symbol="bottom"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="47" method="true" symbol="drawDate"/>
+        <entry field="true" id="19" symbol="font_large_width"/>
+        <entry id="10" object="true" symbol="MinimalNotificationApp"/>
+        <entry field="true" id="29" symbol="right_data_position"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="13" symbol="primary_off_color"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="14" symbol="secondary_off_color"/>
+        <entry field="true" id="38" symbol="burn_in_grid_width"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="11" symbol="primary_color"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="57" symbol="AppName"/>
+        <entry id="49" method="true" symbol="drawNotification"/>
+        <entry field="true" id="42" symbol="burn_in_grid_vertical"/>
+        <entry field="true" id="20" symbol="font_icons_width"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="55" symbol="LauncherIcon"/>
+        <entry field="true" id="37" symbol="burn_in_grid"/>
+        <entry id="46" method="true" symbol="drawTime"/>
+        <entry id="44" method="true" symbol="calculateCirclePosition"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="50" method="true" symbol="drawCalories"/>
+        <entry field="true" id="30" symbol="top"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="35" symbol="in_low_power"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="26" symbol="date_positions"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="17" symbol="font_icons"/>
+        <entry field="true" id="33" symbol="left"/>
+        <entry id="45" method="true" symbol="getDots"/>
+        <entry field="true" id="32" symbol="right"/>
+        <entry id="43" method="true" symbol="getFontDimensions"/>
+        <entry field="true" id="23" symbol="minute_position"/>
+        <entry field="true" id="28" symbol="battery_positions"/>
+        <entry field="true" id="18" symbol="font_small_width"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry field="true" id="34" symbol="heart_rate_period"/>
+        <entry field="true" id="25" symbol="date_position"/>
+        <entry id="52" module="true" symbol="Layouts"/>
+        <entry field="true" id="21" symbol="dot_thickness"/>
+        <entry field="true" id="40" symbol="burn_in_grid_offset"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="15" symbol="font_small"/>
+        <entry field="true" id="56" symbol="icons"/>
+        <entry id="51" method="true" symbol="drawHeartRate"/>
+        <entry field="true" id="36" symbol="can_burn_in"/>
+        <entry field="true" id="24" symbol="month_position"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="53" module="true" symbol="Menus"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="27" symbol="months_positions"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435525" name="settings" stackId="1" startPc="268435460"/>
+        <entry endPc="268436920" name="top_left_angle" stackId="9" startPc="268435530"/>
+        <entry endPc="268436920" name="dots_angle" stackId="12" startPc="268435530"/>
+        <entry endPc="268436920" name="font_icons_dimensions" stackId="6" startPc="268435530"/>
+        <entry endPc="268436920" name="font_large_dimensions" stackId="4" startPc="268435530"/>
+        <entry endPc="268436920" name="font_small_dimensions" stackId="2" startPc="268435530"/>
+        <entry endPc="268436920" name="font_small_size" stackId="7" startPc="268435530"/>
+        <entry endPc="268436920" name="radius" stackId="11" startPc="268435530"/>
+        <entry endPc="268436920" name="top_left" stackId="10" startPc="268435530"/>
+        <entry endPc="268436920" name="font_large_height" stackId="5" startPc="268435530"/>
+        <entry endPc="268436920" name="font_small_height" stackId="3" startPc="268435530"/>
+        <entry endPc="268436920" name="watch_radius" stackId="8" startPc="268435530"/>
+        <entry endPc="268436921" name="dc" stackId="1" startPc="268435526"/>
+        <entry endPc="268437081" name="font_size" stackId="5" startPc="268436977"/>
+        <entry endPc="268437094" name="i" stackId="4" startPc="268436977"/>
+        <entry endPc="268437097" name="font_dimensions" stackId="3" startPc="268436925"/>
+        <entry endPc="268437098" name="dc" stackId="1" startPc="268436921"/>
+        <entry endPc="268437098" name="font" stackId="2" startPc="268436921"/>
+        <entry endPc="268437226" name="radius" stackId="2" startPc="268437098"/>
+        <entry endPc="268437226" name="angle" stackId="1" startPc="268437098"/>
+        <entry endPc="268437335" name="i" stackId="7" startPc="268437272"/>
+        <entry endPc="268437338" name="dot_step" stackId="5" startPc="268437230"/>
+        <entry endPc="268437338" name="dots" stackId="6" startPc="268437230"/>
+        <entry endPc="268437339" name="radius" stackId="1" startPc="268437226"/>
+        <entry endPc="268437339" name="angle_offset" stackId="4" startPc="268437226"/>
+        <entry endPc="268437339" name="count" stackId="2" startPc="268437226"/>
+        <entry endPc="268437339" name="total_angle" stackId="3" startPc="268437226"/>
+        <entry endPc="268437838" name="j" stackId="9" startPc="268437774"/>
+        <entry endPc="268437851" name="i" stackId="8" startPc="268437753"/>
+        <entry endPc="268437895" name="day_of_week" stackId="6" startPc="268437348"/>
+        <entry endPc="268437895" name="hour_string" stackId="3" startPc="268437348"/>
+        <entry endPc="268437895" name="date_string" stackId="5" startPc="268437348"/>
+        <entry endPc="268437895" name="info" stackId="7" startPc="268437348"/>
+        <entry endPc="268437895" name="minute_string" stackId="4" startPc="268437348"/>
+        <entry endPc="268437895" name="time_short" stackId="2" startPc="268437348"/>
+        <entry endPc="268437896" name="dc" stackId="1" startPc="268437344"/>
+        <entry endPc="268438115" name="dc" stackId="1" startPc="268437896"/>
+        <entry endPc="268438115" name="hour_string" stackId="2" startPc="268437896"/>
+        <entry endPc="268438115" name="minute_string" stackId="3" startPc="268437896"/>
+        <entry endPc="268438450" name="i" stackId="5" startPc="268438244"/>
+        <entry endPc="268438483" name="dc" stackId="1" startPc="268438115"/>
+        <entry endPc="268438483" name="day_of_week" stackId="4" startPc="268438115"/>
+        <entry endPc="268438483" name="date_string" stackId="3" startPc="268438115"/>
+        <entry endPc="268438483" name="month" stackId="2" startPc="268438115"/>
+        <entry endPc="268438757" name="i" stackId="3" startPc="268438551"/>
+        <entry endPc="268438758" name="battery" stackId="2" startPc="268438483"/>
+        <entry endPc="268438758" name="dc" stackId="1" startPc="268438483"/>
+        <entry endPc="268439075" name="notification_count" stackId="3" startPc="268438762"/>
+        <entry endPc="268439075" name="notification_string" stackId="4" startPc="268438762"/>
+        <entry endPc="268439076" name="dc" stackId="1" startPc="268438758"/>
+        <entry endPc="268439076" name="device_settings" stackId="2" startPc="268438758"/>
+        <entry endPc="268439299" name="calories_string" stackId="3" startPc="268439080"/>
+        <entry endPc="268439300" name="dc" stackId="1" startPc="268439076"/>
+        <entry endPc="268439300" name="info" stackId="2" startPc="268439076"/>
+        <entry endPc="268439418" name="hr" stackId="5" startPc="268439341"/>
+        <entry endPc="268439601" name="hr_string" stackId="2" startPc="268439304"/>
+        <entry endPc="268439601" name="hr" stackId="4" startPc="268439304"/>
+        <entry endPc="268439601" name="hr_iterator" stackId="3" startPc="268439304"/>
+        <entry endPc="268439602" name="dc" stackId="1" startPc="268439300"/>
+        <entry endPc="268439697" name="state" stackId="1" startPc="268439692"/>
+        <entry endPc="268439702" name="state" stackId="1" startPc="268439697"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="150" parentId="globals" symbolId="MinimalNotificationApp" type="class"/>
+        <dataEntry offset="221" parentId="globals" symbolId="MinimalNotificationView" type="class"/>
+        <dataEntry offset="660" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="739" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="786" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="817" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="856" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="887" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="918" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="MinimalNotificationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getFontDimensions" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <param id="font"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="calculateCirclePosition" parent="MinimalNotificationView">
+            <param id="angle"/>
+            <param id="radius"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getDots" parent="MinimalNotificationView">
+            <param id="radius"/>
+            <param id="count"/>
+            <param id="total_angle"/>
+            <param id="angle_offset"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="MinimalNotificationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawTime" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <param id="hour_string"/>
+            <param id="minute_string"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawDate" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <param id="month"/>
+            <param id="date_string"/>
+            <param id="day_of_week"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawBattery" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <param id="battery"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawNotification" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <param id="device_settings"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawCalories" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawHeartRate" parent="MinimalNotificationView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="MinimalNotificationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="MinimalNotificationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="MinimalNotificationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="MinimalNotificationApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="MinimalNotificationApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="MinimalNotificationApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="MinimalNotificationApp">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

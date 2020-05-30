@@ -1,0 +1,316 @@
+using Toybox.WatchUi;
+using Toybox.Graphics;
+using Toybox.System;
+using Toybox.Lang;
+using Toybox.Time;
+using Toybox.Math;
+using Toybox.ActivityMonitor;
+
+class MinimalNotificationView extends WatchUi.WatchFace {
+
+	var primary_color;
+	var secondary_color;
+	var primary_off_color;
+	var secondary_off_color;
+	
+	var font_small;
+	var font_large;
+	var font_icons;
+	
+	var font_small_width;
+	var font_large_width;
+	var font_icons_width;
+	
+	var width;
+	var height;
+
+	var dot_thickness;
+	var hour_position = new [2];
+	var minute_position = new [2];
+	var month_position = new [2];
+	var date_position = new [2];
+	var date_positions = new [7];
+	var months_positions = new [12];
+	var battery_positions = new [12];
+	var right_data_position = new [2];
+	
+	var top;
+	var bottom;
+	var right;
+	var left;
+	
+	// 300 seconds.
+	var heart_rate_period = new Time.Duration(300);
+	
+	var in_low_power= false;
+	var can_burn_in = false;
+	var burn_in_grid;
+	var burn_in_grid_width;
+	var burn_in_grid_height;
+	var burn_in_grid_offset;
+	var burn_in_grid_horizontal;
+	var burn_in_grid_vertical;
+
+    function initialize() {
+        WatchFace.initialize();
+        var settings = System.getDeviceSettings();
+        if(settings has :requiresBurnInProtection) {
+        	can_burn_in = settings.requiresBurnInProtection;
+    	}
+    }
+
+    // Load your resources here
+    function onLayout(dc) {
+    	primary_color = Graphics.COLOR_WHITE;
+    	secondary_color = 0x109AD7; // Light blue. (https://developer.garmin.com/connect-iq/user-experience-guide/brand-guidelines)
+    	primary_off_color = 0x494848; // Dark gray. (https://developer.garmin.com/connect-iq/user-experience-guide/brand-guidelines)
+    	secondary_off_color = 0xBBBDBF; // Light gray. (https://developer.garmin.com/connect-iq/user-experience-guide/brand-guidelines)
+
+    	font_small = Graphics.FONT_XTINY;
+    	font_large = Graphics.FONT_NUMBER_THAI_HOT;
+    	font_icons = WatchUi.loadResource(Rez.Fonts.icons);
+
+    	width = dc.getWidth();
+    	height = dc.getHeight();
+
+		var font_small_dimensions = getFontDimensions(dc, font_small);
+		font_small_width = font_small_dimensions[0];
+		var font_small_height = font_small_dimensions[1];
+
+		var font_large_dimensions = getFontDimensions(dc, font_large);
+		font_large_width = font_large_dimensions[0];
+		var font_large_height = font_large_dimensions[1];
+		
+		var font_icons_dimensions = getFontDimensions(dc, font_icons);
+		font_icons_width = font_icons_dimensions[0];
+    	
+    	var font_small_size = font_small_height / 2;
+    	if (font_small_size < font_small_width) {
+    		font_small_size = font_small_width;
+    	}
+		var watch_radius = width / 2.0;
+		top = height / 2 - font_large_height / 2 - font_small_height / 2;
+		bottom = height - top;
+		var top_left_angle = Math.asin((height / 2.0 - top) / watch_radius);
+		var top_left = calculateCirclePosition(Math.PI + top_left_angle, watch_radius);
+		left = top_left[0] + font_small_size/ 2.0;
+		right = width - left;
+		
+		hour_position = [width / 2 - 1, height / 2];
+    	minute_position = [width / 2 + 1, height / 2];
+		month_position = [width / 2, top];
+		date_position = [month_position[0], month_position[1]];
+		date_position[0] += font_small_width * 2.0;
+		right_data_position = [right, bottom];
+		dot_thickness = Math.floor(Graphics.getFontHeight(font_small) / 16);
+
+		var radius = width / 2.0 - font_small_size;
+		var dots_angle = Math.asin((height / 2.0 - top - font_small_size * 3.0 / 2.0) / radius) * 2.0;
+
+    	date_positions = getDots(radius, date_positions.size(), -dots_angle, Math.PI * 3.0 / 2.0);
+		battery_positions = getDots(radius, battery_positions.size(), dots_angle, 0);
+		months_positions = getDots(radius, months_positions.size(), dots_angle, Math.PI);
+
+    	if (can_burn_in) {
+    		burn_in_grid = WatchUi.loadResource(Rez.Drawables.grid);
+    		burn_in_grid_offset = 0;
+	    	burn_in_grid_width = 128;
+	    	burn_in_grid_height = 128;
+	    	burn_in_grid_horizontal = Math.ceil(width.toFloat() / burn_in_grid_width.toFloat());
+	    	burn_in_grid_vertical = Math.ceil(height.toFloat() / burn_in_grid_height.toFloat());
+    	}
+    }
+    
+    function getFontDimensions(dc, font) {
+   		var font_dimensions = [0, 0];
+		for(var i = '0'; i <= '9'; ++i) {
+			var font_size = dc.getTextDimensions(i.toString(), font);
+			if (font_size[0] > font_dimensions[0]) {
+				font_dimensions[0] = font_size[0];
+			}
+			if (font_size[1] > font_dimensions[1]) {
+				font_dimensions[1] = font_size[1];
+			}
+		}
+		return font_dimensions;
+    }
+    
+    function calculateCirclePosition(angle, radius) {
+    	return [
+    		width / 2.0 + Math.round(radius * Math.cos(angle)), 
+    		height / 2.0 + Math.round(radius * Math.sin(angle))
+    		];
+    }
+    
+    function getDots(radius, count, total_angle, angle_offset) {
+		var dot_step = total_angle / (count - 1.0);
+		var dots = new [count];
+		for(var i = 0; i < dots.size(); ++i) {
+			dots[i] = calculateCirclePosition(angle_offset - (i - (dots.size() - 1.0) / 2.0) * dot_step, radius);
+		}
+		return dots;
+    }
+
+    // Called when this View is brought to the foreground. Restore
+    // the state of this View and prepare it to be shown. This includes
+    // loading resources into memory.
+    function onShow() {
+    }
+
+    // Update the view
+    function onUpdate(dc) {
+		View.onUpdate(dc);
+
+        var time_short = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+
+        var hour_string = time_short.hour.format("%02d");
+        var minute_string = time_short.min.format("%02d");
+        
+        dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+        drawTime(dc, hour_string, minute_string);
+        drawBattery(dc, System.getSystemStats().battery);
+//		var month_string = time_short.month.format("%02d");
+	    var date_string = time_short.day.format("%02d");
+	    var day_of_week = time_short.day_of_week - 1;
+	    // Convert day_of_week to Monday to Sunday
+	    day_of_week -= 1;
+	    if (day_of_week < 0) {
+	    	day_of_week = 6;
+	    }
+    	drawDate(dc, time_short.month, date_string, day_of_week);
+
+		var info = ActivityMonitor.getInfo();
+        drawNotification(dc, System.getDeviceSettings());
+        drawCalories(dc, info);
+//        drawHeartRate(dc);
+
+        if (can_burn_in) {
+        	if (in_low_power) {
+        		for (var i = 0; i < burn_in_grid_horizontal; ++i) {
+        			for (var j = 0; j < burn_in_grid_vertical; ++j) {
+						dc.drawBitmap(i * burn_in_grid_width + burn_in_grid_offset, j * burn_in_grid_height, burn_in_grid);
+        			}
+        		}
+        		burn_in_grid_offset = (burn_in_grid_offset == 0) ? -1 : 0;
+        	}
+    	}
+    }
+
+    function drawTime(dc, hour_string, minute_string) {
+		dc.drawText(hour_position[0], hour_position[1], font_large, hour_string, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+		dc.setColor(secondary_color, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(minute_position[0], minute_position[1], font_large, minute_string, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+    }
+    
+    function drawDate(dc, month, date_string, day_of_week) {
+//    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+//   		dc.drawText(month_position[0] - 1, month_position[1], font_small, month_string, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+//   		dc.setColor(secondary_color, Graphics.COLOR_TRANSPARENT);
+//   		dc.drawText(month_position[0] + 1, month_position[1], font_small, date_string, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+//   		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+//		for(var i = 0; i < date_positions.size(); ++i) {
+//   			if (i == day_of_week) {
+//   				dc.drawText(date_positions[i][0], date_positions[i][1], font_small, date_string, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+//			} else {
+//   				dc.fillCircle(date_positions[i][0], date_positions[i][1], dot_thickness);
+//			}
+//   		}
+//		var month_string = month.format("%02d");
+    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(left, top, font_small, date_string, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+//   		dc.drawText(left + 1.25 * font_icons_width, bottom, font_small, month_string, Graphics.TEXT_JUSTIFY_LEFT| Graphics.TEXT_JUSTIFY_VCENTER);
+
+   		for(var i = 0; i < months_positions.size(); ++i) {
+   			if (i < month) {
+   				dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+   			} else {
+				if (i == months_positions.size() - 1) {
+   					dc.setColor(secondary_off_color, Graphics.COLOR_TRANSPARENT);
+				} else {
+   					dc.setColor(primary_off_color, Graphics.COLOR_TRANSPARENT);
+				}
+			}
+   			dc.fillCircle(months_positions[i][0], months_positions[i][1], dot_thickness);
+   		}
+   		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+	}
+    
+    function drawBattery(dc, battery) {
+        battery = (battery / 100.0) * battery_positions.size() - 0.5;
+		for(var i = 0; i < battery_positions.size(); ++i) {
+			if(i <= battery) {
+   				dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+			} else {
+				if (i == battery_positions.size() - 1) {
+   					dc.setColor(secondary_off_color, Graphics.COLOR_TRANSPARENT);
+				} else {
+   					dc.setColor(primary_off_color, Graphics.COLOR_TRANSPARENT);
+				}
+			}
+   			dc.fillCircle(battery_positions[i][0], battery_positions[i][1], dot_thickness);
+   		}	
+	}
+
+	function drawNotification(dc, device_settings) {
+		if (!device_settings.phoneConnected) {
+			dc.drawText(right_data_position[0], right_data_position[1], font_small, "--", Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+			return;
+		}
+		var notification_count = device_settings.notificationCount;
+		if (notification_count == 0) {
+			return;
+		}
+
+		var notification_string = notification_count.format("%u");
+    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(right, bottom, font_icons, '2', Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+   		dc.drawText(right - 1.25 * font_icons_width, bottom, font_small, notification_string, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+    }
+	
+	function drawCalories(dc, info) {
+		var calories_string = "--";
+		if(info != null && info.calories != null) {
+			calories_string = info.calories;
+		}
+    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(left, bottom, font_icons, 'X', Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+   		dc.drawText(left + 1.25 * font_icons_width, bottom, font_small, calories_string, Graphics.TEXT_JUSTIFY_LEFT| Graphics.TEXT_JUSTIFY_VCENTER);
+    }
+    
+    function drawHeartRate(dc) {
+    	var hr_string = "--";
+		var hr_iterator = ActivityMonitor.getHeartRateHistory(heart_rate_period, true);
+    	var hr = null;
+    	do {
+    		var hr = hr_iterator.next();
+    		if (hr != null && hr.heartRate != ActivityMonitor.INVALID_HR_SAMPLE) {
+    			hr_string = hr.heartRate.format("%u");
+    			break;
+    		}
+    	} while (hr != null);
+		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(left, bottom, font_icons, 'm', Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+   		dc.drawText(left + 1.25 * font_icons_width, bottom, font_small, hr_string, Graphics.TEXT_JUSTIFY_LEFT| Graphics.TEXT_JUSTIFY_VCENTER);
+    
+    }
+
+    // Called when this View is removed from the screen. Save the
+    // state of this View here. This includes freeing resources from
+    // memory.
+    function onHide() {
+    }
+
+    // The user has just looked at their watch. Timers and animations may be started here.
+    function onExitSleep() {
+    	in_low_power = false;
+    	WatchUi.requestUpdate();
+    }
+
+    // Terminate any active timers and prepare for slow update.
+    function onEnterSleep() {
+    	in_low_power = true;
+    	WatchUi.requestUpdate();
+    }
+
+}
