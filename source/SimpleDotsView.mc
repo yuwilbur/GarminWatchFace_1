@@ -6,7 +6,7 @@ using Toybox.Time;
 using Toybox.Math;
 using Toybox.ActivityMonitor;
 
-class MinimalNotificationView extends WatchUi.WatchFace {
+class SimpleDotsView extends WatchUi.WatchFace {
 
 	var primary_color;
 	var secondary_color;

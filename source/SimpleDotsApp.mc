@@ -1,6 +1,6 @@
 using Toybox.Application;
 
-class MinimalNotificationApp extends Application.AppBase {
+class SimpleDotsApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -16,7 +16,7 @@ class MinimalNotificationApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new MinimalNotificationView() ];
+        return [ new SimpleDotsView() ];
     }
 
 }
