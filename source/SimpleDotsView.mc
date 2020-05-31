@@ -26,6 +26,7 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	
 	var width;
 	var height;
+	var font_icons_offset;
 
 	var dot_thickness;
 	var hour_position = new [2];
@@ -36,9 +37,7 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	var months_positions = new [12];
 	var battery_positions = new [12];
 	var right_data_position = new [2];
-	
-	var info_list = new [3];
-	
+
 	var top;
 	var bottom; 
 	var right;
@@ -96,6 +95,8 @@ class SimpleDotsView extends WatchUi.WatchFace {
 		var font_icons_dimensions = getFontDimensions(dc, font_icons);
 		font_icons_width = font_icons_dimensions[0];
     	
+    	font_icons_offset = 1.25 * font_icons_width;
+    	
 		var watch_radius = width / 2.0;
 		top = height / 2 - font_large_height / 2 - font_small_height / 2;
 		bottom = height - top;
@@ -122,10 +123,6 @@ class SimpleDotsView extends WatchUi.WatchFace {
 		}
 		battery_positions = getDots(radius, battery_positions.size(), dots_angle, 0);
 		months_positions = getDots(radius, months_positions.size(), dots_angle, Math.PI);
-		
-		info_list[0] = WatchUi.loadResource(Rez.Strings.info_name_empty);
-		info_list[1] = WatchUi.loadResource(Rez.Strings.info_name_notifications);
-		info_list[2] = WatchUi.loadResource(Rez.Strings.info_name_calories);
 
     	if (can_burn_in) {
     		burn_in_grid = WatchUi.loadResource(Rez.Drawables.grid);
@@ -135,6 +132,9 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	    	burn_in_grid_horizontal = Math.ceil(width.toFloat() / burn_in_grid_width.toFloat());
 	    	burn_in_grid_vertical = Math.ceil(height.toFloat() / burn_in_grid_height.toFloat());
     	}
+    	
+    	Application.Properties.setValue("info_bottom_right", 1);
+    	Application.Properties.setValue("info_bottom_left", 2);
     }
     
     function getFontDimensions(dc, font) {
@@ -178,23 +178,13 @@ class SimpleDotsView extends WatchUi.WatchFace {
 		View.onUpdate(dc);
 
         var time_short = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-        
-        dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
         drawTime(dc, time_short.hour, time_short.min);
         drawBattery(dc, System.getSystemStats().battery);
-    	drawDate(dc, time_short.month, time_short.day);
-    	
-    	var device_settings = System.getDeviceSettings();
-    	drawStatus(dc, device_settings);
+    	drawDate(dc, time_short.month, time_short.day);    	
+    	drawStatus(dc);
 
-		if (device_settings.phoneConnected) {
-	        drawNotification(dc, device_settings);
-	//        drawHeartRate(dc);
-		}
-		var info = ActivityMonitor.getInfo();
-        drawCalories(dc, info);
-        
         drawBottomLeftInfo(dc);
+        drawBottomRightInfo(dc);
 
         if (can_burn_in) {
         	if (in_low_power) {
@@ -211,6 +201,7 @@ class SimpleDotsView extends WatchUi.WatchFace {
     function drawTime(dc, hour, minute) {
         var hour_string = hour.format("%02d");
         var minute_string = minute.format("%02d");
+		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(hour_position[0], hour_position[1], font_large, hour_string, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
 		dc.setColor(secondary_color, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(minute_position[0], minute_position[1], font_large, minute_string, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
@@ -235,7 +226,8 @@ class SimpleDotsView extends WatchUi.WatchFace {
    		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
 	}
 	
-	function drawStatus(dc, device_settings) {
+	function drawStatus(dc) {
+		var device_settings = System.getDeviceSettings();
 		var status = "";
 		if (!device_settings.phoneConnected) {
 			status += "V";
@@ -245,22 +237,37 @@ class SimpleDotsView extends WatchUi.WatchFace {
 	}
 	
 	function drawBottomLeftInfo(dc) {
-		drawInfo(dc, [left, bottom], Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+		drawInfo(dc, Application.Properties.getValue("info_bottom_left"), [left, bottom], Graphics.TEXT_JUSTIFY_LEFT);
 	}
 	
-	function drawInfo(dc, position, orientation) {
-		System.println("draw");
-		System.println(info_list[Application.Properties.getValue("info_bottom_left")]);
-		switch(info_list[Application.Properties.getValue("info_bottom_left")]) {
-			case WatchUi.loadResource(Rez.Strings.info_name_notifications):
-				System.println("I did it");
-				return;
-			case WatchUi.loadResource(Rez.Strings.info_name_calories):
-				return;
-			case WatchUi.loadResource(Rez.Strings.info_name_empty):
+	function drawBottomRightInfo(dc) {
+		drawInfo(dc, Application.Properties.getValue("info_bottom_right"), [right, bottom], Graphics.TEXT_JUSTIFY_RIGHT);
+	}
+
+	function drawInfo(dc, info_type, position, orientation) {
+		var info = null;
+		switch(info_type) {
+			case 1: // info_name_notifications
+				info = getNotification(dc);
+				break;
+			case 2: // info_name_calories
+				info = getCalories(dc);
+				break;
+			case 3: // info_name_heart_rate
+				info = getHeartRate(dc);
+				break;
+			case 0: // info_name_empty
 			default:
 				return;
 		}
+		if (info == null) {
+			return;
+		}
+
+		var font_icons_direction = (orientation == Graphics.TEXT_JUSTIFY_RIGHT) ? -1 : 1;
+    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(position[0], position[1], font_icons, info[0], orientation | Graphics.TEXT_JUSTIFY_VCENTER);
+   		dc.drawText(position[0] + font_icons_direction * font_icons_offset, position[1], font_small, info[1], orientation | Graphics.TEXT_JUSTIFY_VCENTER);
 	}
     
     function drawBattery(dc, battery) {
@@ -290,29 +297,28 @@ class SimpleDotsView extends WatchUi.WatchFace {
    		}	
 	}
 
-	function drawNotification(dc, device_settings) {
+	function getNotification(dc) {
+		var device_settings = System.getDeviceSettings();
+		if (!device_settings.phoneConnected) {
+			return null;
+		}
 		var notification_count = device_settings.notificationCount;
 		if (notification_count == 0) {
-			return;
+			return null;
 		}
-
 		var notification_string = notification_count.format("%u");
-    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
-		dc.drawText(right, bottom, font_icons, '2', Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
-   		dc.drawText(right - 1.25 * font_icons_width, bottom, font_small, notification_string, Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER);
+		return ['2', notification_count.format("%u")];
     }
 	
-	function drawCalories(dc, info) {
-		var calories_string = "--";
-		if(info != null && info.calories != null) {
-			calories_string = info.calories;
+	function getCalories(dc) {
+		var info = ActivityMonitor.getInfo();
+		if (info == null || info.calories == null) {
+			return null;
 		}
-    	dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
-		dc.drawText(left, bottom, font_icons, 'X', Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
-   		dc.drawText(left + 1.25 * font_icons_width, bottom, font_small, calories_string, Graphics.TEXT_JUSTIFY_LEFT| Graphics.TEXT_JUSTIFY_VCENTER);
+		return ['X', info.calories.format("%u")];
     }
     
-    function drawHeartRate(dc) {
+    function getHeartRate(dc) {
     	var hr_string = "--";
 		var hr_iterator = ActivityMonitor.getHeartRateHistory(heart_rate_period, true);
     	var hr = null;
@@ -323,9 +329,7 @@ class SimpleDotsView extends WatchUi.WatchFace {
     			break;
     		}
     	} while (hr != null);
-		dc.setColor(primary_color, Graphics.COLOR_TRANSPARENT);
-		dc.drawText(left, bottom, font_icons, 'm', Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
-   		dc.drawText(left + 1.25 * font_icons_width, bottom, font_small, hr_string, Graphics.TEXT_JUSTIFY_LEFT| Graphics.TEXT_JUSTIFY_VCENTER);
+    	return ['m', hr_string];
     
     }
 

@@ -1,3 +1,4 @@
 <properties>
+	<property id="info_bottom_right" type="number">0</property>
 	<property id="info_bottom_left" type="number">0</property>
 </properties>

@@ -4,6 +4,15 @@
 	<listEntry value="0">@Strings.info_name_empty</listEntry>
 	<listEntry value="1">@Strings.info_name_notifications</listEntry>
 	<listEntry value="2">@Strings.info_name_calories</listEntry>
+	<listEntry value="3">@Strings.info_name_heart_rate</listEntry>
+	</settingConfig>
+	</setting>
+	<setting propertyKey="@Properties.info_bottom_right" title="@Strings.info_bottom_right">
+	<settingConfig type="list">
+	<listEntry value="0">@Strings.info_name_empty</listEntry>
+	<listEntry value="1">@Strings.info_name_notifications</listEntry>
+	<listEntry value="2">@Strings.info_name_calories</listEntry>
+	<listEntry value="3">@Strings.info_name_heart_rate</listEntry>
 	</settingConfig>
 	</setting>
 </settings>
